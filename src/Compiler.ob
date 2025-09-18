@@ -303,8 +303,6 @@ BEGIN
 
     STRINGS.append(lib_path, "lib");
     STRINGS.append(lib_path, UTILS.slash);
-    STRINGS.append(lib_path, TARGETS.LibDir);
-    STRINGS.append(lib_path, UTILS.slash);
 
     keys(options, outname);
     TEXTDRV.setTabSize(options.tab);
